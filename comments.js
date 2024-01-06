@@ -10,31 +10,31 @@
     (But change the script src URL to wherever you have this widget stored on your site!)
 
         <div id="c_widget"></div>
-        <script src="comment-widget.js"></script>
+        <script src="comments.js"></script>
 
     Have fun! Bug reports are encouraged if you happen to run into any issues.
     - Ayano (https://virtualobserver.moe/)
 */
 
 // The values in this section are REQUIRED for the widget to work! Keep them in quotes!
-const s_stylePath = 'PATH HERE';
-const s_formId = 'ID HERE';
-const s_nameId = 'ID HERE';
-const s_websiteId = 'ID HERE';
-const s_textId = 'ID HERE';
-const s_pageId = 'ID HERE';
-const s_replyId = 'ID HERE';
-const s_sheetId = 'ID HERE';
+const s_stylePath = '/comments.css';
+const s_formId = '1FAIpQLSfUEpjqrDSJsNU6YQBOikw-1Y65E5zGrilTOfZAxT_F3X-DAw';
+const s_nameId = '809730937';
+const s_websiteId = '765040019';
+const s_textId = '34692011';
+const s_pageId = '1219107024';
+const s_replyId = '2029382417';
+const s_sheetId = '1iGMapyuFhuaQFE_DWB6cexB8ZN1N_A-CsjkTNm5Wats';
 
 // The values below are necessary for accurate timestamps, I've filled it in with EST as an example
-const s_timezone = -5; // Your personal timezone (Example: UTC-5:00 is -5 here, UTC+10:30 would be 10.5)
-const s_daylightSavings = true; // If your personal timezone uses DST, set this to true
+const s_timezone = -3; // Your personal timezone (Example: UTC-5:00 is -5 here, UTC+10:30 would be 10.5)
+const s_daylightSavings = false; // If your personal timezone uses DST, set this to true
 // For the dates DST start and end where you live: [Month, Weekday, which number of that weekday, hour (24 hour time)]
 const s_dstStart = ['March', 'Sunday', 2, 2]; // Example shown is the second Sunday of March at 2:00 am
 const s_dstEnd = ['November', 'Sunday', 1, 2]; // Example shown is the first Sunday of November at 2:00 am
 
 // Misc - Other random settings
-const s_commentsPerPage = 5; // The max amount of comments that can be displayed on one page, any number >= 1 (Replies not counted)
+const s_commentsPerPage = 10; // The max amount of comments that can be displayed on one page, any number >= 1 (Replies not counted)
 const s_maxLength = 500; // The max character length of a comment
 const s_maxLengthName = 16; // The max character length of a name
 const s_commentsOpen = true; // Change to false if you'd like to close your comment section site-wide (Turn it off on Google Forms too!)
