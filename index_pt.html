@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <title>JEFBECKER</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site pessoal de jefbecker">
+  <meta property="og:image" content="https://jefbecker.com/thumb.png">
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="en-US Feed">
+  <link href="/feed_pt.xml" rel="alternate" type="application/rss+xml" title="pt-BR Feed">
+  <link rel="me" href="https://mastodon.social/@jefbecker">
+  <link href="/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <noscript><strong><span class="emoji" aria-hidden="true">⚠️ </span>JAVASCRIPT DESABILITADO<span class="emoji" aria-hidden="true"> ⚠️</span><br>Botões não funcionam mais!</strong></noscript>
+    <h1>JEFBECKER</h1>
+    <nav>
+      <button class="active" title="Página Inicial" onclick="document.location='/index_pt.html'">Início</button>
+      <button title="Listas" onclick="document.location='/lists_pt.html'">Listas</button>
+      <button title="Páginas" onclick="document.location='/pages_pt.html'">Páginas</button>
+      <button title="Neocities" onclick="document.location='/neocities_pt.html'">Neocities</button>
+      <button title="Sobre" onclick="document.location='/about_pt.html'">Sobre</button>
+      <button title="Feed RSS" onclick="document.location='/feed_pt.xml'" style="color: #222; background-color: #ee802f;">RSS</button>
+    </nav>
+  </header>
+
+  <button title="Switch to English" onclick="document.location='/index.html'">en-US</button>
+  <button class="active" title="Mudar para Português" onclick="document.location='/index_pt.html'">pt-BR</button>
+
+  <div class="title">
+    <h1 style="text-align: center;font-size: medium;">Olá, bem-vindo(a) ao meu site! Você é o visitante nº <code style="font-family: system-ui"><span id="hitcount_br"></span>.</code><br>Este é o meu espaço pessoal na internet. Nem tudo está pronto ainda, mas aos poucos irei colocando mais conteúdo. Enquanto isso, sinta-se à vontade para acessar o que já está disponível.<br><br><code style="font-family: system-ui">Última atualização: <span id="lastupdate_br"></span>.</code></h1>
+    <hr>
+  </div>
+
+  <article>
+    <h2 style="text-align: center;"><span class="emoji" aria-hidden="true">📢</span> Últimas Atualizações</h2>
+    <P><strong><span class="emoji" aria-hidden="true">📌</span> Botão do site</strong> - Agora o site possui um <a href="/88x31.png" title="botão 88x31">botão 88x31!</a></P>
+    <P><strong><span class="emoji" aria-hidden="true">🌟</span> Tradução e melhorias no JavaScript</strong> - A tradução da Página Inicial está pronta, mas ainda faltam nove páginas. Agora é possível trocar de idioma entre Português (BR) e Inglês. Os botões são muito dependentes de scripts, então fiz uma gambiarra para permitir a navegação quando o JavaScript está desativado;</P>
+    <P><strong><span class="emoji" aria-hidden="true">🌟</span> JavaScript</strong> - Adicionei 3 scripts interessantes: um contador de views e um que mostra a data da última atualização do site, tudo utilizando a API do próprio Neocities. (Encontrei no <a href="https://dannarchy.com/tut/tut_002" title="dannarchy.com">dannarchy.com</a>). O outro serve para mostrar uma imagem customizada no perfil do Neocities. (Esse encontrei no <a href="https://arandomsite.neocities.org/writing/#custom-neocities-thumbnail" title="arandomsite.neocities.org">arandomsite.neocities.org</a>);</P>
+    <P><strong><span class="emoji" aria-hidden="true">🌟</span> Mais Ajustes</strong> - Eu arrumei os botões da minha barra de navegação agora eles se comportam como botões;</P>
+    <details>
+      <summary>Mostrar mais...</summary>
+      <P><strong><span class="emoji" aria-hidden="true">⭐</span> Ajustes</strong> - Impedi que os emojis sejam visualizados por APIs de acessibilidade. Emojis são apenas "perfumaria" e estavam causando problemas em leitores de tela;</P>
+      <P><strong><span class="emoji" aria-hidden="true">⭐</span> Emojis</strong> - Vou testar se emojis deixam o visual menos chato, mas não tenho certeza se vai dar certo porque já vi que alguns leitores de tela quebraram;</P>
+      <P><strong><span class="emoji" aria-hidden="true">⭐</span> Cantos arredondados</strong> - Ajustei os blocos de destaque para que eles tenha cantos arredondados. Parece legal;</P>
+      <P><strong><span class="emoji" aria-hidden="true">⭐</span> Modo escuro</strong> - Modo escuro aplicado com sucesso! Agora está finalmente funcionando;</P>
+      <P><strong><span class="emoji" aria-hidden="true">⭐</span> Navegação por botões</strong> - Agora a barra de navegação agora possui botões ao invés de links;</P>
+      <P><strong><span class="emoji" aria-hidden="true">⭐</span> Navegação e Rodapé</strong> - Alterei alguns links da barra de navegação e no rodapé. Links adicionais agora só estarão disponíveis na <a href="/about_pt.html" title="página Sobre">página Sobre</a>. Agora é possível navegar entre as postagens graças a um menu no final das páginas;</P>
+      <P><strong><span class="emoji" aria-hidden="true">⭐</span> Página "Agora" (now page)</strong> - Essa ideia foi totalmente descartada. A Home do Site será o local onde posto coisas;</P>
+      <P><strong><span class="emoji" aria-hidden="true">⭐</span> Página "Hospedado no Neocities"</strong> - Essa página se tornou apenas "<a href="/neocities_pt.html" title="Neocities">Neocities</a>" e agora faz parte do menu de navegação;</P>
+      <P><strong><span class="emoji" aria-hidden="true">⭐</span> Página de listas</strong> - A <a href="/lists_pt.html" title="página de Listas">página de Listas</a> foi concluída;</P>
+      <P><strong><span class="emoji" aria-hidden="true">⭐</span> Robots.txt e AI.txt</strong> - Foram adicionados dois arquivos de texto para <em>tentar</em> impedir os crawlers. Também adicionei um sitemap básico;</P>
+      <P><strong><span class="emoji" aria-hidden="true">⭐</span> Performance and fixes</strong> - Foram feitas várias correções nos HTML/CSS do Site para melhorar a performance e a coerência do código. Agora os navegadores com modo leitura conseguem identificar os elementos corretamente e exibir a opção de leitura em praticamente todas as páginas. Também estou testando usar alguns métodos para que a Home não utilize o cache com tanta frequência e sempre exiba o conteúdo atualizado.</P>
+      <hr>
+    </details>
+    <h2 style="text-align: center;"><span class="emoji" aria-hidden="true">📝</span> Próximas Atualizações</h2>
+    <P><strong><span class="emoji" aria-hidden="true">★</span> Concluir a Tradução</strong> - Ainda restam nove páginas para traduzir;</P>
+    <P><strong><span class="emoji" aria-hidden="true">★</span> Página "Neocities"</strong> - Vou fazer uma página especifica sobre o Neocities;</P>
+    <P><strong><span class="emoji" aria-hidden="true">★</span> Caixa de comentários</strong> - Estou pensando em adicionar uma caixa de comentários ou talvez um livro de visitas.</P>
+    <details>
+      <summary>Mostrar mais...</summary>
+      <P><strong><span class="emoji" aria-hidden="true">★</span> Página de contato</strong> - Ajustar as informações e incrementar um pouco;</P>
+      <P><strong><span class="emoji" aria-hidden="true">★</span> Página "Sobre"</strong> - Revisar alguns dados e incluir mais coisas interessantes;</P>
+      <hr>
+    </details>
+    <h2 style="text-align: center;"><span class="emoji" aria-hidden="true">📑</span> Últimas Publicações</h2>
+    <P><span class="emoji" aria-hidden="true">✔️</span> <a href="/lists_pt.html" title="Listas">11/11/2023 | Listas</a></P>
+    <P><span class="emoji" aria-hidden="true">✔️</span> <a href="/pages/este_site_e_perfeito.html" title="Este Site é Perfeito">25/06/2023 | Este Site é Perfeito</a></P>
+    <P><span class="emoji" aria-hidden="true">✔️</span> <a href="/about_pt.html" title="Sobre Este Projeto">10/06/2023 | Sobre Este Projeto</a></P>
+    <P><span class="emoji" aria-hidden="true">✔️</span> <a href="/privacy_pt.html" title="Política de Privacidade">04/06/2023 | Política de Privacidade</a></P>
+  </article>
+
+  <footer>
+    <a href="/88x31.png"><img src="/88x31.png" alt="88x31 button" style="width:88px; height: 31px;" class="responsive"></a><br>
+    <a href="/privacy_pt.html" title="Política de Privacidade">Política de Privacidade</a> |
+    <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licença Creative Commons - CC-BY-NC-SA 4.0">CC-BY-NC-SA 4.0</a>
+    <p id="date">[JavaScript desabilitado]</p>
+    <div id="wcb" class="carbonbadge wcb-d"></div>
+    <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+  </footer>
+  <!-- How to Change Your Neocities Thumbnail from ARandomSite: https://arandomsite.neocities.org/writing/#custom-neocities-thumbnail -->
+  <!-- Native Neocities Hit-Counter & Last Updated From Dann: https://dannarchy.com/tut/tut_002 -->
+  <script src="/script_pt.js"></script>
+  <script>
+    if (/headless/i.test(window.navigator.userAgent)) { window.location.replace("/thumbnail/"); }
+  </script>
+</body>
+
+</html>
