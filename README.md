@@ -1,2 +1,2 @@
 # jefbecker.com
-My personal website, hosted on Neocities.org
+My personal website, hosted by Neocities.org
