@@ -1,5 +1,6 @@
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
+<atom:link href="https://jefbecker.com/feed.xml" rel="self" type="application/rss+xml"/>
 <title>jefbecker en-US</title>
 <description>en-US Feed RSS | jefbecker</description>
 <link>https://jefbecker.com</link>
@@ -9,7 +10,7 @@
 <link>https://jefbecker.com/lists.html</link>
 <title>Lists</title>
 <author>jefbecker</author>
-<pubDate>Sat, 11 Nov 2023 22:00:00 UTC-3</pubDate>
+<pubDate>Sat, 11 Nov 2023 22:00:00 -0300</pubDate>
 <description>
 <![CDATA[
 <article>
@@ -80,7 +81,7 @@
 <link>https://jefbecker.com/pages/this_website_is_perfect.html</link>
 <title>This Website is Perfect</title>
 <author>jefbeckerr</author>
-<pubDate>Sun, 25 Jun 2023 21:00:00 UTC-3</pubDate>
+<pubDate>Sun, 25 Jun 2023 21:00:00 -0300</pubDate>
 <description>
 <![CDATA[
 <article>
@@ -100,7 +101,7 @@
 <link>https://jefbecker.com/about.html</link>
 <title>About This Project</title>
 <author>jefbecker</author>
-<pubDate>Sun, 11 Jun 2023 15:00:00 UTC-3</pubDate>
+<pubDate>Sun, 11 Jun 2023 15:00:00 -0300</pubDate>
 <description>
 <![CDATA[
 <article>
@@ -148,7 +149,7 @@
 <link>https://jefbecker.com/privacy</link>
 <title>Privacy Policy</title>
 <author>jefbecker</author>
-<pubDate>Sun, 04 Jun 2023 08:00:00 UTC-3</pubDate>
+<pubDate>Sun, 04 Jun 2023 08:00:00 -0300</pubDate>
 <description>
 <![CDATA[
 <article>
