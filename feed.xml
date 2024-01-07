@@ -9,7 +9,7 @@
 <item>
 <link>https://jefbecker.com/lists.html</link>
 <title>Lists</title>
-<author>jefbecker</author>
+<dc:creator>jefbecker</dc:creator>
 <pubDate>Sat, 11 Nov 2023 22:00:00 -0300</pubDate>
 <description>
 <![CDATA[
@@ -80,7 +80,7 @@
 <item>
 <link>https://jefbecker.com/pages/this_website_is_perfect.html</link>
 <title>This Website is Perfect</title>
-<author>jefbeckerr</author>
+<dc:creator>jefbecker</dc:creator>
 <pubDate>Sun, 25 Jun 2023 21:00:00 -0300</pubDate>
 <description>
 <![CDATA[
@@ -100,7 +100,7 @@
 <item>
 <link>https://jefbecker.com/about.html</link>
 <title>About This Project</title>
-<author>jefbecker</author>
+<dc:creator>jefbecker</dc:creator>
 <pubDate>Sun, 11 Jun 2023 15:00:00 -0300</pubDate>
 <description>
 <![CDATA[
@@ -148,7 +148,7 @@
 <item>
 <link>https://jefbecker.com/privacy</link>
 <title>Privacy Policy</title>
-<author>jefbecker</author>
+<dc:creator>jefbecker</dc:creator>
 <pubDate>Sun, 04 Jun 2023 08:00:00 -0300</pubDate>
 <description>
 <![CDATA[
