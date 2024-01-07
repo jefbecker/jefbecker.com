@@ -154,15 +154,11 @@ footer {
     background-color: #333;
   }
 
-  nav {
-    color: #333;
-    color: #ffffff;
-  }
-
   button {
     cursor: pointer;
     border-radius: 4px;
     background-color: #e5e5e5;
+    color: #333;
   }
 
   summary {
@@ -177,13 +173,13 @@ footer {
   }
 
   a:link {
-    color: #00d0ca;
+    color: #26D9D6;
 
-    /* Theme: Tiffany Blue https://encycolorpedia.com/0abab5 */
+    /* Theme: Teal https://encycolorpedia.com/008080 */
   }
 
   a:visited {
-    color: #008080;
+    color: #DBE9E9;
   }
 }
 
@@ -219,11 +215,11 @@ footer {
   }
 
   a:link {
-    color: #00d0ca;
+    color: #15403F;
   }
 
   a:visited {
-    color: #0a5c5c;
+    color: #4f3140;
   }
 }
 
