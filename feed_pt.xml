@@ -1,14 +1,19 @@
-<rss version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
 <channel>
 <title>jefbecker pt-BR</title>
-<description>pt-BR Feed RSS | jefbecker</description>
 <link>https://jefbecker.com</link>
-<language>pt-BR</language>
+<description>pt-BR Feed RSS | jefbecker</description>
+<language>en-us</language>
+<lastBuildDate>Sun, 07 Jan 2024 08:00:00 -0300</lastBuildDate>
+<docs>https://www.rssboard.org/rss-specification</docs>
+<generator>VSCodium</generator>
+<managingEditor>rkz21bg4@duck.com (jefbecker)</managingEditor>
+<webMaster>rkz21bg4@duck.com (jefbecker)</webMaster>
+<atom:link href="https://jefbecker.com/feed_pt.xml" rel="self" type="application/rss+xml"/>
 <!--==================================================== -->
 <item>
 <link>https://jefbecker.com/lists_pt.html</link>
 <title>Listas</title>
-<author>jefbecker</author>
 <pubDate>Sat, 11 Nov 2023 22:00:00 UTC-3</pubDate>
 <description>
 <![CDATA[
@@ -78,7 +83,6 @@
 <item>
 <link>https://jefbecker.com/pages/este_site_e_perfeito.html</link>
 <title>Este Site é Perfeito</title>
-<author>jefbeckerr</author>
 <pubDate>Sun, 25 Jun 2023 21:00:00 UTC-3</pubDate>
 <description>
 <![CDATA[
@@ -99,7 +103,6 @@
 <item>
 <link>https://jefbecker.com/about_pt.html</link>
 <title>Sobre Este Projeto</title>
-<author>jefbecker</author>
 <pubDate>Sun, 11 Jun 2023 15:00:00 UTC-3</pubDate>
 <description>
 <![CDATA[
@@ -147,7 +150,6 @@
 <item>
 <link>https://jefbecker.com/privacy_pt.html</link>
 <title>Política de Privacidade</title>
-<author>jefbecker</author>
 <pubDate>Sun, 04 Jun 2023 08:00:00 UTC-3</pubDate>
 <description>
 <![CDATA[
