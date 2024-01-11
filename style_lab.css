@@ -17,19 +17,42 @@ h3 {
   box-sizing: border-box;
 }
 
-.button {
+.en-US {
+  display: block;
+}
+
+.pr-BR {
+  display: none;
+}
+
+a.button-like-link {
   font-family: system-ui;
-  text-decoration: none;
-  background-color: #EEEEEE;
+  padding: 1px 1px;
   color: #333333;
-  padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-  border-radius: 4px;
+  background-color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 2px solid #333;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.1s ease; /* Add a smooth transition for the border color */
+  border-color: #999 #000 #000 #999;
   
 }
+
+a.button-like-link:hover {
+  background-color: #e0e0e0; /* Change background color on hover */
+}
+
+a.button-like-link:active {
+  border-color: #000 #999 #999 #000; /* Top and left: black, Bottom and right: grey */
+  background-color: #008080;
+  color: #ffffff;
+  font-weight: bold;
+  }
+  
 
 .lab {
   background-position-x: center;
@@ -55,13 +78,6 @@ header {
   background-position-x: center;
   background-repeat: no-repeat;
   background-image: image-set("/images/lights.png"); */
-}
-
-.active {
-  background-color: #008080;
-  color: #ffffff;
-  font-weight: bold;
-
 }
 
 .title {
