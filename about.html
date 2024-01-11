@@ -16,15 +16,14 @@
 
 <body>
   <header>
-    <noscript><strong><span class="emoji" aria-hidden="true">⚠️ </span>JAVASCRIPT DISABLED<span class="emoji" aria-hidden="true"> ⚠️</span><br>Buttons no longer work!</strong></noscript>
     <h1>JEFBECKER</h1>
     <nav>
-      <button title="Home Page" onclick="document.location='/index.html'">Home</button>
-      <button title="Lists" onclick="document.location='/lists.html'">Lists</button>
-      <button title="Pages" onclick="document.location='/pages.html'">Pages</button>
-      <button title="Neocities" onclick="document.location='/neocities.html'">Neocities</button>
-      <button class="active" title="About" onclick="document.location='/about.html'">About</button>
-      <button title="Feed RSS" onclick="document.location='/feed.xml'" style="color: #222; background-color: #ee802f;">RSS</button>
+      <button title="Go to Home Page" onclick="document.location='/index.html'">Home</button>
+      <button title="Go to Lists" onclick="document.location='/lists.html'">Lists</button>
+      <button title="Go to Pages" onclick="document.location='/pages.html'">Pages</button>
+      <button title="Go to Neocities" onclick="document.location='/neocities.html'">Neocities</button>
+      <button title="Go to About" class="active" onclick="document.location='/about.html'">About</button>
+      <button title="Go to RSS Feed" onclick="document.location='/feed.xml'" style="color: #222; background-color: #FF9142;">RSS</button>
     </nav>
   </header>
 
@@ -62,15 +61,13 @@
     <h2>Personal Likes</h2>
     <p>Talvez a minha profissão não denuncie, mas gosto de contabilidade. Principalmente de finanças pessoais. Também me interesso por tecnologia - não é a toa que estou gostando mais de fazer esse site do que colocar conteúdo nele. No início de 2018 comecei a acompanhar animes de verdade. Antes disso, só assitia alguma coisa esporádica que fizesse sucesso no momento. Atualmente assisto mais de dois animes por temporada, sendo que quando estava mais vidrado nesse mundo, já cheguei a assistir mais de dez. Também leio alguns mangás e tento ler livros diversos. Só tento porque tenho uma certa dificuldade de consumir leituras mais longas. Gosto de séries de comédia e dos famigerados "filmes de boneco".</p>
     <h2>How to Contact Me and Other Links</h2>
-    <ul>
-      <li><a href="/archive.html">Archive;</a></li>
-      <li><a href="/contact.html">Contact Page;</a></li>
-      <li><a href="/privacy.html">Política de Privacidade;</a></li>
-      <li><a href="/lists.html">Animes, mangas, series, movies and books are documented on my lists;</a>
-      <li><a href="/donate.html">Donation Page;</a></li>
-      <li><a href="https://neocities.org/site/jefbecker">Website Profile on Neocities;</a></li>
-      <li><a href="https://mastodon.social/@jefbecker">Profile on Mastodon.</a></li>
-    </ul>
+    <p><a href="/archive.html">Archive;</a></p>
+    <p><a href="/contact.html">Contact Page;</a></p>
+    <p><a href="/privacy.html">Política de Privacidade;</a></p>
+    <p><a href="/lists.html">Animes, mangas, series, movies and books are documented on my lists;</a></p>
+    <p><a href="/donate.html">Donation Page;</a></p>
+    <p><a href="https://neocities.org/site/jefbecker">Website Profile on Neocities;</a></p>
+    <p><a href="https://mastodon.social/@jefbecker">Profile on Mastodon.</a></p>
   </article>
 
   <div class="flex-container">
@@ -79,12 +76,13 @@
   </div>
 
   <footer>
-    <a href="/88x31.png"><img src="/88x31.png" alt="jefbecker" style="width:88px; height: 31px;" class="responsive"></a><br>
-    <a href="/privacy.html">Política de Privacidade</a> |
-    <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a>
-    <p id="date"></p>
+    <img src="/88x31.png" alt="88x31 button" loading="lazy"></a><br>
+    <a href="/privacy.html" title="Read the Privacy Policy">Privacy Policy</a> |
+    <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Creative Commons License - CC-BY-NC-SA 4.0">CC-BY-NC-SA 4.0</a>
+    <p id="date">Since Jul 30, 2021</p>
+    <noscript><strong><span class="emoji" aria-hidden="true">⚠️ </span>JAVASCRIPT DISABLED<span class="emoji" aria-hidden="true"> ⚠️</span><br>Buttons no longer work!</strong></noscript>
   </footer>
-  <script src="/since.js"></script>
+  <script src="/scripts/since.js"></script>
 </body>
 
 </html>

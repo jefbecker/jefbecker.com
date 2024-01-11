@@ -16,15 +16,14 @@
 
 <body>
   <header>
-    <noscript><strong><span class="emoji" aria-hidden="true">⚠️ </span>JAVASCRIPT DISABLED<span class="emoji" aria-hidden="true"> ⚠️</span><br>Buttons no longer work!</strong></noscript>
     <h1>JEFBECKER</h1>
     <nav>
-      <button title="Home Page" onclick="document.location='/index.html'">Home</button>
-      <button title="Lists" onclick="document.location='/lists.html'">Lists</button>
-      <button title="Pages" onclick="document.location='/pages.html'">Pages</button>
-      <button class="active" title="Neocities" onclick="document.location='/neocities.html'">Neocities</button>
-      <button title="About" onclick="document.location='/about.html'">About</button>
-      <button title="Feed RSS" onclick="document.location='/feed.xml'" style="color: #222; background-color: #ee802f;">RSS</button>
+      <button title="Go to Home Page" onclick="document.location='/index.html'">Home</button>
+      <button title="Go to Lists" onclick="document.location='/lists.html'">Lists</button>
+      <button title="Go to Pages" onclick="document.location='/pages.html'">Pages</button>
+      <button title="Go to Neocities" class="active" onclick="document.location='/neocities.html'">Neocities</button>
+      <button title="Go to About" onclick="document.location='/about.html'">About</button>
+      <button title="Go to RSS Feed" onclick="document.location='/feed.xml'" style="color: #222; background-color: #FF9142;">RSS</button>
     </nav>
   </header>
 
@@ -41,12 +40,13 @@
   </article>
 
   <footer>
-    <a href="/88x31.png"><img src="/88x31.png" alt="88x31 button" style="width:88px; height: 31px;" class="responsive"></a><br>
-    <a href="/privacy.html" title="Privacy Policy">Privacy Policy</a> |
+    <img src="/88x31.png" alt="88x31 button" loading="lazy"></a><br>
+    <a href="/privacy.html" title="Read the Privacy Policy">Privacy Policy</a> |
     <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Creative Commons License - CC-BY-NC-SA 4.0">CC-BY-NC-SA 4.0</a>
-    <p id="date"></p>
+    <p id="date">Since Jul 30, 2021</p>
+    <noscript><strong><span class="emoji" aria-hidden="true">⚠️ </span>JAVASCRIPT DISABLED<span class="emoji" aria-hidden="true"> ⚠️</span><br>Buttons no longer work!</strong></noscript>
   </footer>
-  <script src="/since.js"></script>
+  <script src="/scripts/since.js"></script>
 </body>
 
 </html>

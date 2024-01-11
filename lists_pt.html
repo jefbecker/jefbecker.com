@@ -16,15 +16,14 @@
 
 <body>
   <header>
-    <noscript><strong><span class="emoji" aria-hidden="true">⚠️ </span>JAVASCRIPT DESABILITADO<span class="emoji" aria-hidden="true"> ⚠️</span><br>Botões não funcionam mais!</strong></noscript>
     <h1>JEFBECKER</h1>
     <nav>
-      <button title="Página Inicial" onclick="document.location='/index_pt.html'">Início</button>
-      <button class="active" title="Listas" onclick="document.location='/lists_pt.html'">Listas</button>
-      <button title="Páginas" onclick="document.location='/pages_pt.html'">Páginas</button>
-      <button title="Neocities" onclick="document.location='/neocities_pt.html'">Neocities</button>
-      <button title="Sobre" onclick="document.location='/about_pt.html'">Sobre</button>
-      <button title="Feed RSS" onclick="document.location='/feed_pt.xml'" style="color: #222; background-color: #ee802f;">RSS</button>
+      <button title="Ir para o Início" onclick="document.location='/index.html'">Início</button>
+      <button title="Ir para Listas" class="active" onclick="document.location='/lists.html'">Listas</button>
+      <button title="Ir para Páginas" onclick="document.location='/pages.html'">Páginas</button>
+      <button title="Ir para Neocities" onclick="document.location='/neocities.html'">Neocities</button>
+      <button title="Ir para Sobre" onclick="document.location='/about.html'">Sobre</button>
+      <button title="Ir para Feed RSS" onclick="document.location='/feed.xml'" style="color: #222; background-color: #FF9142;">RSS</button>
     </nav>
   </header>
   <span>
@@ -42,7 +41,7 @@
     <h2><strong><a href="https://myanimelist.net/profile/jefbecker" title="My Anime List">My Anime List</a> - Tudo relacionado a Animes e Mangás (exceto light novels)</strong></h2>
     <ul>
       <li><strong>Animes</strong>
-        <ul style="list-style-position: inside;">
+        <ul>
           <li><a href="https://myanimelist.net/animelist/jefbecker?status=1">Watching</a> - Animes que eu estou assistindo no momento;</li>
           <li><a href="https://myanimelist.net/animelist/jefbecker?status=2">Completed</a> - Animes que eu já assisti;</li>
           <li><a href="https://myanimelist.net/animelist/jefbecker?status=3">On Hold</a> - Animes pausados;</li>
@@ -53,7 +52,7 @@
     </ul>
     <ul>
       <li><strong>Mangás</strong>
-        <ul style="list-style-position: inside;">
+        <ul>
           <li><a href="https://myanimelist.net/mangalist/jefbecker?status=1">Currently Reading</a> - Mangás que eu estou lendo no momento;</li>
           <li><a href="https://myanimelist.net/mangalist/jefbecker?status=2">Completed</a> - Mangás que eu já li;</li>
           <li><a href="https://myanimelist.net/mangalist/jefbecker?status=3">On Hold</a> - Mangás pausados;</li>
@@ -66,7 +65,7 @@
     <h2><strong><a href="https://simkl.com/4731819/dashboard/" title="SIMKL">SIMKL</a> - Tudo relacionado a Séries de TV e Filmes</strong></h2>
     <ul>
       <li><strong>Séries de TV</strong>
-        <ul style="list-style-position: inside;">
+        <ul>
           <li><a href="https://simkl.com/4731819/tv/watching/">Watching</a> - Séries que eu estou assistindo no momento;</li>
           <li><a href="https://simkl.com/4731819/tv/completed/">Completed</a> - Séries que eu já assisti;</li>
           <li><a href="https://simkl.com/4731819/tv/hold/">On Hold</a> - Séries pausadas ou aguardando novas temporadas;</li>
@@ -76,7 +75,7 @@
     </ul>
     <ul>
       <li><strong>Filmes</strong>
-        <ul style="list-style-position: inside;">
+        <ul>
           <li><a href="https://simkl.com/4731819/movies/completed/">Completed</a> - Filmes que eu já assisti;</li>
           <li><a href="https://simkl.com/4731819/movies/plantowatch/">Plan to Watch</a> - Filmes que eu pretendo assistir no futuro;</li>
         </ul>
@@ -84,14 +83,14 @@
     </ul>
     <hr>
     <h2><strong><a href="https://www.goodreads.com/user/show/132090948-jefbecker" title="GoodReads">GoodReads</a> - Tudo relacionado a Livros e Light Novels</strong></h2>
-    <ul style="list-style-position: inside;">
+    <ul>
       <li><a href="https://www.goodreads.com/review/list/132090948-jefbecker?shelf=currently-reading">Currently Reading</a> - Livros que eu estou lendo no momento;</li>
       <li><a href="https://www.goodreads.com/review/list/132090948-jefbecker?shelf=read">Read</a> - Livros que eu já li;</li>
       <li><a href="https://www.goodreads.com/review/list/132090948-jefbecker?shelf=to-read">Plan to Read</a> - Livros que eu pretendo ler no futuro;</li>
     </ul>
     <hr>
     <h2><strong><a href="https://www.last.fm/user/jefbecker" title="Last.FM">Last.FM</a> - Tudo relacionado a Música</strong></h2>
-    <ul style="list-style-position: inside;">
+    <ul>
       <li><a href="https://www.last.fm/user/jefbecker/library">Scrobbles</a> - Scrobbles da minha playlist do Spotify (não uso muito);</li>
       <li><a href="https://www.last.fm/user/jefbecker/library/artists">Artists</a> - Bandas/Artistas da playlist pessoal;</li>
       <li><a href="https://open.spotify.com/playlist/3ee3xujWBEpJuTYeABIx6d?si=dcfb7d67690047fa">Spotify</a> - Minha playlist pessoal no Spotify.</li>
@@ -104,11 +103,13 @@
   </div>
 
   <footer>
-    <a href="/88x31.png"><img src="/88x31.png" alt="88x31 button" style="width:88px; height: 31px;" class="responsive"></a><br>
-    <a href="/privacy_pt.html" title="Política de Privacidade">Política de Privacidade</a> |
+    <img src="/88x31.png" alt="botão 88x31" loading="lazy"></a><br>
+    <a href="/privacy.html" title="Leia a Política de Privacidade">Política de Privacidade</a> |
     <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licença Creative Commons - CC-BY-NC-SA 4.0">CC-BY-NC-SA 4.0</a>
-    <p id="date"></p>
-    <script src="since.js"></script>
+    <p id="date">Desde 30 de Jul 2021</p>
+    <noscript><strong><span class="emoji" aria-hidden="true">⚠️ </span>JAVASCRIPT DESABILITADO<span class="emoji" aria-hidden="true"> ⚠️</span><br>Botões não funcionam mais!</strong></noscript>
+  </footer>
+  <script src="/scripts/since_pt.js"></script>
   </footer>
 </body>
 
