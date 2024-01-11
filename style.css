@@ -17,16 +17,6 @@ h3 {
   box-sizing: border-box;
 }
 
-.lab {
-  background-position-x: center;
-  background-repeat: repeat;
-  background-image: image-set("/images/stripe.jpg");
-  background-size: 80%;
-  color: #ffffff;
-
-  /* Lab */
-}
-
 header {
   margin: 10px auto;
   max-width: 800px;
