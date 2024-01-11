@@ -13,6 +13,7 @@
 <!--==================================================== -->
 <item>
 <link>https://jefbecker.com/lists_pt.html</link>
+<guid>https://jefbecker.com/lists_pt.html</guid>
 <title>Listas</title>
 <pubDate>Sat, 11 Nov 2023 22:00:00 -0300</pubDate>
 <description>
@@ -22,7 +23,7 @@
     <h2><strong><a href="https://myanimelist.net/profile/jefbecker" title="My Anime List">My Anime List</a> - Tudo relacionado a Animes e Mangás (exceto light novels)</strong></h2>
     <ul>
       <li><strong>Animes</strong>
-        <ul style="list-style-position: inside;">
+        <ul>
           <li><a href="https://myanimelist.net/animelist/jefbecker?status=1">Watching</a> - Animes que eu estou assistindo no momento;</li>
           <li><a href="https://myanimelist.net/animelist/jefbecker?status=2">Completed</a> - Animes que eu já assisti;</li>
           <li><a href="https://myanimelist.net/animelist/jefbecker?status=3">On Hold</a> - Animes pausados;</li>
@@ -33,7 +34,7 @@
     </ul>
     <ul>
       <li><strong>Mangás</strong>
-        <ul style="list-style-position: inside;">
+        <ul>
           <li><a href="https://myanimelist.net/mangalist/jefbecker?status=1">Currently Reading</a> - Mangás que eu estou lendo no momento;</li>
           <li><a href="https://myanimelist.net/mangalist/jefbecker?status=2">Completed</a> - Mangás que eu já li;</li>
           <li><a href="https://myanimelist.net/mangalist/jefbecker?status=3">On Hold</a> - Mangás pausados;</li>
@@ -46,7 +47,7 @@
     <h2><strong><a href="https://simkl.com/4731819/dashboard/" title="SIMKL">SIMKL</a> - Tudo relacionado a Séries de TV e Filmes</strong></h2>
     <ul>
       <li><strong>Séries de TV</strong>
-        <ul style="list-style-position: inside;">
+        <ul>
           <li><a href="https://simkl.com/4731819/tv/watching/">Watching</a> - Séries que eu estou assistindo no momento;</li>
           <li><a href="https://simkl.com/4731819/tv/completed/">Completed</a> - Séries que eu já assisti;</li>
           <li><a href="https://simkl.com/4731819/tv/hold/">On Hold</a> - Séries pausadas ou aguardando novas temporadas;</li>
@@ -56,7 +57,7 @@
     </ul>
     <ul>
       <li><strong>Filmes</strong>
-        <ul style="list-style-position: inside;">
+        <ul>
           <li><a href="https://simkl.com/4731819/movies/completed/">Completed</a> - Filmes que eu já assisti;</li>
           <li><a href="https://simkl.com/4731819/movies/plantowatch/">Plan to Watch</a> - Filmes que eu pretendo assistir no futuro;</li>
         </ul>
@@ -64,14 +65,14 @@
     </ul>
     <hr>
     <h2><strong><a href="https://www.goodreads.com/user/show/132090948-jefbecker" title="GoodReads">GoodReads</a> - Tudo relacionado a Livros e Light Novels</strong></h2>
-    <ul style="list-style-position: inside;">
+    <ul>
       <li><a href="https://www.goodreads.com/review/list/132090948-jefbecker?shelf=currently-reading">Currently Reading</a> - Livros que eu estou lendo no momento;</li>
       <li><a href="https://www.goodreads.com/review/list/132090948-jefbecker?shelf=read">Read</a> - Livros que eu já li;</li>
       <li><a href="https://www.goodreads.com/review/list/132090948-jefbecker?shelf=to-read">Plan to Read</a> - Livros que eu pretendo ler no futuro;</li>
     </ul>
     <hr>
     <h2><strong><a href="https://www.last.fm/user/jefbecker" title="Last.FM">Last.FM</a> - Tudo relacionado a Música</strong></h2>
-    <ul style="list-style-position: inside;">
+    <ul>
       <li><a href="https://www.last.fm/user/jefbecker/library">Scrobbles</a> - Scrobbles da minha playlist do Spotify (não uso muito);</li>
       <li><a href="https://www.last.fm/user/jefbecker/library/artists">Artists</a> - Bandas/Artistas da playlist pessoal;</li>
       <li><a href="https://open.spotify.com/playlist/3ee3xujWBEpJuTYeABIx6d?si=dcfb7d67690047fa">Spotify</a> - Minha playlist pessoal no Spotify.</li>
@@ -82,18 +83,19 @@
 </item>
 <item>
 <link>https://jefbecker.com/pages/este_site_e_perfeito.html</link>
+<guid>https://jefbecker.com/pages/este_site_e_perfeito.html</guid>
 <title>Este Site é Perfeito</title>
 <pubDate>Sun, 25 Jun 2023 21:00:00 -0300</pubDate>
 <description>
 <![CDATA[
 <article>
-    <p>Nesta semana concluí os últimos passos que faltavam para o site ficar "100%". Adquiri um domínio '.com' e virei apoiador do Neocities. Ter um domínio era algo que eu nem considerava tanto assim, mas em três dias me informei e acabei convencido de que era uma ideia muito boa e relativamente barata. Apoiar a "casa" deste site também não estava nos planos, mas eu gostei tanto daqui que resolvi testar. Agora, cancelar o apoio é o que não está nos planos.</p>
+    <p>Nesta semana concluí os últimos passos que faltavam para o site ficar "100%". Adquiri um domínio '.com' e virei apoiador do Neocities. Owning a domain wasn't something I considered that much . Apoiar a "casa" deste site também não estava nos planos, mas eu gostei tanto daqui que resolvi testar. Agora, cancelar o apoio é o que não está nos planos.</p>
     <h2>Com Grandes Domínios Vem Grandes Spams</h2>
-    <p>Não sei ao certo o quanto isso está relacionado ao novo domínio, mas comecei a receber spam do tipo mais duvidoso no email que deixei para contato. O que não é bem um problema já que esse email foi feito exatamente pra isso. Só que ter que alterar esse email com certa frequência em cada página em que ele se encontra vai ser inviável daqui para frente: este site é estático, cada página é feita individualmente e quanto mais páginas existirem, mais alterações terão de ser feitas. Com isso em mente, resolvi mudar um pouco a estrutura criando páginas para assuntos específicos. Com isso, posso alterar o email com tranquilidade na sua <a href="/contact.html">própria página.</a></p>
+    <p>Não sei ao certo o quanto isso está relacionado ao novo domínio, mas comecei a receber spam do tipo mais duvidoso no email que deixei para contato. O que não é bem um problema já que esse email foi feito exatamente pra isso. Só que ter que alterar esse email com certa frequência em cada página em que ele se encontra vai ser inviável daqui para frente: este site é estático, cada página é feita individualmente e quanto mais páginas existirem, mais alterações terão de ser feitas. Com isso em mente, resolvi mudar um pouco a estrutura criando páginas para assuntos específicos. Com isso, posso alterar o email com tranquilidade na sua <a href="/contact_pt.html">própria página.</a></p>
     <p>Mas voltando aos spams, as propostas que recebi foram um tanto descabidas, não por se tratar claramente de golpes, mas por apontar supostos defeitos neste site e oferecer "coisas melhores", novo <em>design</em> e blá, blá, blá.</p>
     <p>Eu já estava me preparando para dar uma de <a href="https://en.wikipedia.org/wiki/James_Veitch_(comedian)">James Veitch</a> e responder das formas mais criativas que eu só consigo pensar quando não tenho condições de escrevê-las. Mas pensei duas vezes e só desisti. Não vale à pena e seria muito trabalhoso. Talvez quando eu tiver mais tempo.</p>
     <h2>Este Site Já é Perfeito</h2>
-    <p>Fiquei pensando um pouco sobre isso, se esse era realmente o formato de site que eu gostaria de ter. Mas tudo indica que sim, pelo menos por enquanto. Esse site é perfeito do jeito que é: simples, responsivo, leve e por causa disso acabou marcando alguns pontos em acessibilidade também. <a href="/feed.xml">Tem até RSS!</a> Tá cheio de site grande que nem se preocupa com isso…</p>
+    <p>Fiquei pensando um pouco sobre isso, se esse era realmente o formato de site que eu gostaria de ter. Mas tudo indica que sim, pelo menos por enquanto. Esse site é perfeito do jeito que é: simples, responsivo, leve e por causa disso acabou marcando alguns pontos em acessibilidade também. <a href="/feed_pt.xml">Tem até RSS!</a> Tá cheio de site grande que nem se preocupa com isso…</p>
   </article>
 ]]>
 </description>
@@ -102,6 +104,7 @@
 <!--==================================================== -->
 <item>
 <link>https://jefbecker.com/about_pt.html</link>
+<guid>https://jefbecker.com/about_pt.html</guid>
 <title>Sobre Este Projeto</title>
 <pubDate>Sun, 11 Jun 2023 15:00:00 -0300</pubDate>
 <description>
@@ -132,16 +135,13 @@
     <h2>Gostos Pessoais</h2>
     <p>Talvez a minha profissão não denuncie, mas gosto de contabilidade. Principalmente de finanças pessoais. Também me interesso por tecnologia - não é a toa que estou gostando mais de fazer esse site do que colocar conteúdo nele. No início de 2018 comecei a acompanhar animes de verdade. Antes disso, só assitia alguma coisa esporádica que fizesse sucesso no momento. Atualmente assisto mais de dois animes por temporada, sendo que quando estava mais vidrado nesse mundo, já cheguei a assistir mais de dez. Também leio alguns mangás e tento ler livros diversos. Só tento porque tenho uma certa dificuldade de consumir leituras mais longas. Gosto de séries de comédia e dos famigerados "filmes de boneco".</p>
     <h2>Como Entrar em Contato e Outros Links</h2>
-    <ul>
-      <li><a href="/archive_pt.html">Arquivo;</a></li>
-      <li><a href="/contact_pt.html">Página de Contato;</a></li>
-      <li><a href="https://neocities.org/site/jefbecker">Perfil do site no Neocities;</a></li>
-      <li><a href="https://mastodon.social/@jefbecker">Perfil no Mastodon;</a></li>
-      <li><a href="/donate_pt.html">Página de Doações;</a></li>
-      <li><a href="/privacy_pt.html">Política de Privacidade;</a></li>
-      <li><a href="/lists_pt.html">Animes, mangás, séries, filmes e livros estão documentados nas minhas listas.</a>
-      </li>
-    </ul>
+    <p><a href="/archive_pt.html">Arquivo;</a></p>
+    <p><a href="/contact_pt.html">Página de Contato;</a></p>
+    <p><a href="/privacy_pt.html">Política de Privacidade;</a></p>
+    <p><a href="/lists_pt.html">Animes, mangás, séries, filmes e livros estão documentados nas minhas listas;</a></p>
+    <p><a href="/donate_pt.html">Página de Doações;</a></p>
+    <p><a href="https://neocities.org/site/jefbecker">Perfil do site no Neocities;</a></p>
+    <p><a href="https://mastodon.social/@jefbecker">Perfil no Mastodon.</a></p>
   </article>
 ]]>
 </description>
@@ -149,6 +149,7 @@
 <!--==================================================== -->
 <item>
 <link>https://jefbecker.com/privacy_pt.html</link>
+<guid>https://jefbecker.com/privacy_pt.html</guid>
 <title>Política de Privacidade</title>
 <pubDate>Sun, 04 Jun 2023 08:00:00 -0300</pubDate>
 <description>
