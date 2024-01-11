@@ -1,5 +1,4 @@
 // Script - Native Neocities Hit-Counter & Last Updated From Dann: https://dannarchy.com/tut/tut_002 //
-
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
