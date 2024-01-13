@@ -183,6 +183,12 @@ td, th {
   a:visited {
     color: #DBE9E9;
   }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media only screen and (prefers-color-scheme: light) {
@@ -223,6 +229,12 @@ td, th {
   a:visited {
     color: #4f3140;
   } */
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 600px) {
