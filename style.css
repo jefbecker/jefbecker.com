@@ -204,13 +204,13 @@ footer {
     padding-left: 20px;
   }
 
-  a:link {
+  /* a:link {
     color: #15403F;
   }
 
   a:visited {
     color: #4f3140;
-  }
+  } */
 }
 
 @media only screen and (max-width: 600px) {
