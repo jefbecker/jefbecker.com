@@ -17,14 +17,14 @@
 */
 
 // The values in this section are REQUIRED for the widget to work! Keep them in quotes!
-const s_stylePath = '/comment-widget/comments.css';
-const s_formId = '1FAIpQLSfUEpjqrDSJsNU6YQBOikw-1Y65E5zGrilTOfZAxT_F3X-DAw';
-const s_nameId = '809730937';
-const s_websiteId = '765040019';
-const s_textId = '34692011';
-const s_pageId = '1219107024';
-const s_replyId = '2029382417';
-const s_sheetId = '1iGMapyuFhuaQFE_DWB6cexB8ZN1N_A-CsjkTNm5Wats';
+const s_stylePath = '/comment-widget/comments.css'; // Define the path for the stylesheet (ie. /styles/commentwidget.css)
+const s_formId = '1FAIpQLSfUEpjqrDSJsNU6YQBOikw-1Y65E5zGrilTOfZAxT_F3X-DAw'; // The Google Form
+const s_nameId = '809730937'; // The Name field ID
+const s_websiteId = '765040019'; // The Website field ID
+const s_textId = '34692011'; // The Text field ID
+const s_pageId = '1219107024'; // The Page field ID
+const s_replyId = '2029382417'; // The Reply field ID
+const s_sheetId = '1iGMapyuFhuaQFE_DWB6cexB8ZN1N_A-CsjkTNm5Wats'; // The Google Sheet
 
 // The values below are necessary for accurate timestamps, I've filled it in with EST as an example
 const s_timezone = -3; // Your personal timezone (Example: UTC-5:00 is -5 here, UTC+10:30 would be 10.5)

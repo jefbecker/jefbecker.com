@@ -41,10 +41,64 @@
       <textarea id="story" name="story" rows="5" cols="33">
 It was a dark and stormy night...
 </textarea>
-    </div>
+
+      <!--=================================================================================-->
+
+      <div>
+        <p>&#127911; <span id="song">&#8987;</span></p>
+      </div>
+      <div>
+        <p><small>latest played song on <a href="http://last.fm" target="_blank">last.fm</a></small> | <small>powered by <a href="https://github.com/biancarosa/lastfm-last-played" target="_blank">@biancarosa/lastfm-last-played</a></small></p>
+      </div>
+
+      <!--=================================================================================-->
+
+      <a href="https://status.cafe/users/jefbecker"><img src="https://status.cafe/users/jefbecker/badge.png" alt="Status Cafe Profile" /></a>
+
+      <!--=================================================================================-->
+
+      <a href="https://status.cafe"><img src="https://status.cafe/assets/button.png" alt="Status Cafe" /></a>
+
+      <!--=================================================================================-->
+
+      <a href="https://status.cafe/users/jefbecker.atom">Status.cafe Feed</a>
+
+      <!--=================================================================================-->
+<br>
+      <span id="statusCafe-emoji"></span>
+      <h2><a href="https://status.cafe/users/fri11s" class="hidden">Latest status</a></h2>
+      <span id="statusCafe-time"></span></header>
+      <div id="statusCafe-status">No recent update :(</div>
+
+      <!--=================================================================================-->
+
+     </div>
     <div id="c_widget"></div>
     <script src="/comment-widget/comments.js"></script>
-  </article>
+  </article> 
+
+ <p>Hello! Thank you for stopping by. Please leave a message to say you were here or to share your website.</p>
+<p>Be nice, all usual code of conduct rules apply, comments are moderated.</p>
+<details class="pb-2">
+<summary>Code of conduct</summary>
+<div class="py-1">
+  <ul class="stars">
+    <li>No hate speech, whatsoever.</li>
+    <li>No harrassment.</li>
+    <li>No trolling.</li>
+    <li>No spam.</li>
+    <li>No advertisting.</li>
+    <li>Do not share private information, especially if you're a minor.</li>
+    <li>Be respectful to me and other commenters.</li>
+  </ul>
+</div>
+</details>
+
+
+
+
+
+<!--=================================================================================-->
 
   <footer class="lab">
     <a href="/images/button_avatar_yellow.png"><img src="/images/button_avatar_yellow.png" alt="88x31 button" style="width:88px; height: 31px;" class="responsive"></a><br>
@@ -55,6 +109,11 @@ It was a dark and stormy night...
   <script src="/scripts/since.js"></script>
   <script src="/scripts/hitcount_en.js"></script>
   <script src="/scripts/hitcount_pt.js"></script>
+  <script src="/scripts/lastplayed.js"></script>
+  <script src="/comment-widget-frills/guestbook.js" defer></script>
 </body>
 
 </html>
+
+
+<script> fetch("https://status.cafe/users/jefbecker/status.json").then(t => t.json()).then(t => { if (!t.content.length) { document.getElementById("statusCafe-status").innerHTML = "No status yet."; return } document.getElementById("statusCafe-emoji").innerHTML = t.face, document.getElementById("statusCafe-time").innerHTML = t.timeAgo, document.getElementById("statusCafe-status").innerHTML = t.content }); </script>
