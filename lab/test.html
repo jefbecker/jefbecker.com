@@ -34,50 +34,30 @@
 
   <article>
     <div class="title">
-      <h1>#<code style="font-family: system-ui"><span id="hitcount_br"></span>.</code><br><code style="font-family: system-ui">Last Updated: <span id="lastupdate_br"></span>.</code></h1>
-      <h1>#<code style="font-family: system-ui"><span id="hitcount"></span>.</code><br><code style="font-family: system-ui">Last Updated: <span id="lastupdate"></span>.</code></h1>
+      <h1><code style="font-family: system-ui">nº <span id="hitcount_br"></span>.</code><br><code style="font-family: system-ui">Última atualização: <span id="lastupdate_br"></span>.</code></h1>
+      <h1><code style="font-family: system-ui"># <span id="hitcount"></span>.</code><br><code style="font-family: system-ui">Last Updated: <span id="lastupdate"></span>.</code></h1>
       <hr>
-      <label for="story">Tell us your story:</label>
-      <textarea id="story" name="story" rows="5" cols="33">
-It was a dark and stormy night...
-</textarea>
-
       <!--=================================================================================-->
-
-      <div>
-        <p>&#127911; <span id="song">&#8987;</span></p>
+      <br>
+      <div class="card center">
+        <h2>Latest played song on last.fm</h2>
+        <p>&#127911; <a href="https://www.last.fm/user/jefbecker/library"><span id="song"></span></a></p>
+          <hr>
+        <p><small>powered by <a href="https://github.com/biancarosa/lastfm-last-played" target="_blank">@biancarosa</a></small></p>
       </div>
-      <div>
-        <p><small>latest played song on <a href="http://last.fm" target="_blank">last.fm</a></small> | <small>powered by <a href="https://github.com/biancarosa/lastfm-last-played" target="_blank">@biancarosa/lastfm-last-played</a></small></p>
+      <br>
+      <!--=================================================================================-->
+      <div class="card center">
+        <h2>Latest status.cafe updates</h2>
+        <span id="statusCafe-emoji"></span>
+        <a href="https://status.cafe/users/jefbecker"><span id="statusCafe-status">No recent update</span></a>
+        <hr>
+        <p><small><span id="statusCafe-time"></span> via <a href="https://status.cafe/users/jefbecker.atom">status.cafe Feed</a></small></p>
       </div>
-
+      <br>
       <!--=================================================================================-->
-
-      <a href="https://status.cafe/users/jefbecker"><img src="https://status.cafe/users/jefbecker/badge.png" alt="Status Cafe Profile" /></a>
-
-      <!--=================================================================================-->
-
-      <a href="https://status.cafe"><img src="https://status.cafe/assets/button.png" alt="Status Cafe" /></a>
-
-      <!--=================================================================================-->
-
-      <a href="https://status.cafe/users/jefbecker.atom">Status.cafe Feed</a>
-
-      <!--=================================================================================-->
-<br>
-      <span id="statusCafe-emoji"></span>
-      <h2><a href="https://status.cafe/users/jefbecker" class="hidden">Latest status</a></h2>
-      <span id="statusCafe-time"></span></header>
-      <div id="statusCafe-status">No recent update :(</div>
-
-      <!--=================================================================================-->
-
-     
-    
-    
-  </article> 
-  <div id="c_widget"></div>
-<!--=================================================================================-->
+      <div id="c_widget"></div>
+  </article>
 
   <footer class="lab">
     <a href="/images/button_avatar_yellow.png"><img src="/images/button_avatar_yellow.png" alt="88x31 button" style="width:88px; height: 31px;" class="responsive"></a><br>
@@ -91,8 +71,6 @@ It was a dark and stormy night...
   <script src="/scripts/lastplayed.js"></script>
   <script src="/scripts/status.js"></script>
   <script src="/comment-widget/comments.js"></script>
-  </body>
+</body>
 
 </html>
-
-
