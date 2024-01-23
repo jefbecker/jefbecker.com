@@ -49,7 +49,19 @@ header {
 
 article {
   margin: 10px auto;
-  padding: 0 10px;
+  
+}
+
+.card {
+  margin: 10px auto;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #333;
+  box-sizing: border-box;
+  padding-inline: 20px;
+  border-radius: 4px;
+  overflow: auto;
+  
 }
 
 .atx {
