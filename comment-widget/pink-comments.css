@@ -56,12 +56,12 @@
 #c_widget {
     box-sizing: border-box;
     height: 100%;
-    padding: 15px;
+    /*padding: 10px; */
     overflow: auto;
     background-image: url('bow-bg.gif'); /* F2U background provided by https://sadgrl.online/webmastery/downloads/tiledbgs */
     background-attachment: fixed;
-    font-family: 'Trebuchet MS';
-    font-size: 14px;
+    /*font-family: 'Trebuchet MS';*/
+    /*font-size: 14px; */
     color: #211F24;
 }
 
