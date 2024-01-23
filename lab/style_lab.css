@@ -36,7 +36,7 @@ header {
   font-family: system-ui;
   text-align: center;
   border-radius: 4px;
- 
+
   /* Header decoration 
   background-position-x: center;
   background-repeat: no-repeat;
@@ -49,19 +49,7 @@ header {
 
 article {
   margin: 10px auto;
-  
-}
 
-.card {
-  margin: 10px auto;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #333;
-  box-sizing: border-box;
-  padding-inline: 20px;
-  border-radius: 4px;
-  overflow: auto;
-  
 }
 
 .atx {
@@ -223,6 +211,23 @@ footer {
 
 }
 
+.card {
+  margin: 10px auto;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #333;
+  box-sizing: border-box;
+  padding-inline: 20px;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media only screen and (prefers-color-scheme: light) {
   header {
     background-color: #e5e5e5;
@@ -280,6 +285,23 @@ footer {
     background-color: #008080;
     color: #ffffff;
     font-weight: bold;
+  }
+
+  .card {
+    margin: 10px auto;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #e5e5e5;
+    box-sizing: border-box;
+    padding-inline: 20px;
+    border-radius: 4px;
+    overflow: auto;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
