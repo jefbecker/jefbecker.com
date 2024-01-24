@@ -38,12 +38,14 @@
   <article>
     <h2 style="text-align: center;"><span class="emoji" aria-hidden="true">📢</span> Últimas Atualizações</h2>
     <P><strong><span class="emoji" aria-hidden="true">📌</span> Botão do site</strong> - Agora o site possui um <a href="/88x31.png">botão 88x31!</a></P>
+    <P><strong><span class="emoji" aria-hidden="true">🌟</span> Atualizações do last.fm, status.cafe e acessibilidade</strong> - Adicionei dois cards que mostram a última música que tocou no meu last.fm e a última publicação no status.cafe. Também estou trabalhando com a acessibilidade do site; o meu objetivo é alcançar o <a href="https://www.w3.org/TR/WCAG20/#a" title="Diretrizes de Acessibilidade para Conteúdo da Web (WCAG) versão 2.0, nível AA">Web Content Accessibility Guidelines (WCAG), Version 2.0, Level AA.</a></P>
     <P><strong><span class="emoji" aria-hidden="true">🌟</span> Terminando de arrumar a casa</strong> - Todas as páginas foram traduzidas (espero não ter esquecido nenhuma). Fiz as pazes com o Javascript, não fazia sentido fugir dele. Tratei de arrumar algumas pontas soltas e dei uma geral nas páginas em construção, no markup e nos feeds RSS - dê uma olhada neles, basta selecionar o idioma preferido e clicar em 'RSS.' Também removi o badge do Website Carbon porque não estava funcionando. Agora é que esse site vai começar de verdade, tem muita coisa legal (ou inútil) vindo aí...</P>
     <P><strong><span class="emoji" aria-hidden="true">🌟</span> Tradução e melhorias no JavaScript</strong> - A tradução da Página Inicial está pronta, mas ainda faltam nove páginas. Agora é possível trocar de idioma entre Português (BR) e Inglês. Os botões são muito dependentes de scripts, então fiz uma gambiarra para permitir a navegação quando o JavaScript está desativado;</P>
     <P><strong><span class="emoji" aria-hidden="true">🌟</span> JavaScript</strong> - Adicionei 3 scripts interessantes: um contador de views e um que mostra a data da última atualização do site, tudo utilizando a API do próprio Neocities. (Encontrei no <a href="https://dannarchy.com/tut/tut_002">dannarchy.com</a>). O outro serve para mostrar uma imagem customizada no perfil do Neocities. (Esse encontrei no <a href="https://arandomsite.neocities.org/writing/#custom-neocities-thumbnail">arandomsite.neocities.org</a>);</P>
-    <P><strong><span class="emoji" aria-hidden="true">🌟</span> Mais Ajustes</strong> - Eu arrumei os botões da minha barra de navegação agora eles se comportam como botões;</P>
+
     <details>
       <summary>Mostrar mais...</summary>
+      <P><strong><span class="emoji" aria-hidden="true">⭐</span> Mais Ajustes</strong> - Eu arrumei os botões da minha barra de navegação agora eles se comportam como botões;</P>
       <P><strong><span class="emoji" aria-hidden="true">⭐</span> Ajustes</strong> - Impedi que os emojis sejam visualizados por APIs de acessibilidade. Emojis são apenas "perfumaria" e estavam causando problemas em leitores de tela;</P>
       <P><strong><span class="emoji" aria-hidden="true">⭐</span> Emojis</strong> - Vou testar se emojis deixam o visual menos chato, mas não tenho certeza se vai dar certo porque já vi que alguns leitores de tela quebraram;</P>
       <P><strong><span class="emoji" aria-hidden="true">⭐</span> Cantos arredondados</strong> - Ajustei os blocos de destaque para que eles tenha cantos arredondados. Parece legal;</P>
@@ -57,6 +59,22 @@
       <P><strong><span class="emoji" aria-hidden="true">⭐</span> Performance and fixes</strong> - Foram feitas várias correções nos HTML/CSS do Site para melhorar a performance e a coerência do código. Agora os navegadores com modo leitura conseguem identificar os elementos corretamente e exibir a opção de leitura em praticamente todas as páginas. Também estou testando usar alguns métodos para que a Home não utilize o cache com tanta frequência e sempre exiba o conteúdo atualizado.</P>
       <hr>
     </details>
+    <br>
+    <div class="card center">
+      <h2>Última música tocada no last.fm</h2>
+      <p>&#127911; <a href="https://www.last.fm/user/jefbecker/library"><span id="song"></span></a></p>
+      <hr style="margin-bottom: -0.8em; margin-top: 1.2em;">
+      <p style="float: right;"><small>Mantido por <a href="https://github.com/biancarosa/lastfm-last-played" target="_blank">@biancarosa</a></small></p>
+    </div>
+    <br>
+    <div class="card center">
+      <h2>Última atualização no status.cafe</h2>
+      <span id="statusCafe-emoji"></span>
+      <span id="statusCafe-status">Sem atualizações recentes</span></a>
+      <hr style="margin-bottom: -0.8em; margin-top: 1.2em;">
+      <p><small>Publicado <span id="statusCafe-time"></span>. <a style="float:right" href="https://status.cafe/users/jefbecker">status.cafe</a></small></p>
+    </div>
+    <br>
     <h2 style="text-align: center;"><span class="emoji" aria-hidden="true">📝</span> Próximas Atualizações</h2>
     <P><strong><span class="emoji" aria-hidden="true">★</span> Concluir a Tradução</strong> - Ainda restam nove páginas para traduzir;</P>
     <P><strong><span class="emoji" aria-hidden="true">★</span> Página "Neocities"</strong> - Vou fazer uma página especifica sobre o Neocities;</P>
@@ -81,9 +99,11 @@
     <p id="date">Desde 30 de Jul 2021</p>
     <noscript><strong><span class="emoji" aria-hidden="true">⚠️ </span>JAVASCRIPT DESABILITADO<span class="emoji" aria-hidden="true"> ⚠️</span><br>Botões não funcionam mais!</strong></noscript>
   </footer>
-  <script src="/scripts/since_pt.js"></script>
+  <script src="/scripts/since.js"></script>
+  <script src="/scripts/hitcount_en.js"></script>
   <script src="/scripts/hitcount_pt.js"></script>
-  <script src="/scripts/headless.js"></script>
+  <script src="/scripts/lastplayed.js"></script>
+  <script src="/scripts/status.js"></script>
 </body>
 
 </html>

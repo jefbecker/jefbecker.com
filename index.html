@@ -16,7 +16,7 @@
 
 <body>
   <header>
-    <h1>JEFBECKER</h1>
+    <h1 class="hidden">JEFBECKER</h1>
     <nav>
       <button title="Go to Home Page" class="active" onclick="window.location.href='/index.html'">Home</button>
       <button title="Go to Lists" onclick="window.location.href='/lists.html'">Lists</button>
@@ -31,19 +31,21 @@
   <button title="Mudar para Português" onclick="window.location.href='/index_pt.html'">pt-BR</button>
 
   <div class="title">
-    <h1 style="text-align: center;font-size: medium;">Hello, welcome to my website! You are the visitor <code style="font-family: system-ui"># <span id="hitcount"></span>.</code><br>This is my personal space on the internet. Not everything is ready yet, but I will add more content in the future. In the mean time, feel free to access what is already available.<br><br><code style="font-family: system-ui">Last Updated: <span id="lastupdate"></span>.</code></h1>
+    <h2 style="text-align: center;font-size: medium;">Hello, welcome to my website! You are the visitor <code style="font-family: system-ui"># <span id="hitcount"></span>.</code><br>This is my personal space on the internet. Not everything is ready yet, but I will add more content in the future. In the mean time, feel free to access what is already available.<br><br><code style="font-family: system-ui">Last Updated: <span id="lastupdate"></span>.</code></h2>
     <hr>
   </div>
 
   <article>
     <h2 style="text-align: center;"><span class="emoji" aria-hidden="true">📢</span> Last Updates</h2>
     <P><strong><span class="emoji" aria-hidden="true">📌</span> Website button</strong> - Now this website have a <a href="/88x31.png">88x31 button!</a></P>
+    <P><strong><span class="emoji" aria-hidden="true">🌟</span> Updates from last.fm, status.cafe and accessibility</strong> - I added two cards displaying the last song played on my last.fm and the latest post on status.cafe. I'm also working on the website's accessibility; my goal is to meet the <a href="https://www.w3.org/TR/WCAG20/#a">Web Content Accessibility Guidelines (WCAG), Version 2.0, Level AA</a>.</P>
     <P><strong><span class="emoji" aria-hidden="true">🌟</span> Finishing up the house</strong> - All pages have been translated (hope I didn't forget any). I made peace with JavaScript, it didn't make sense to avoid it. I took care of some loose ends, did a general check on the under-construction pages, markup, and RSS feeds - take a look at them, just select your preferred language and click on 'RSS.' I also removed the Website Carbon badge because it wasn't working. Now, this site is really going to kick off; there's a lot of cool (or useless) stuff coming soon...</P>
     <P><strong><span class="emoji" aria-hidden="true">🌟</span> Translation and JavaScript improvements</strong> - The Home Page translation is done, but there are still nine pages left. Now it is possible to toggle languages between Portuguese (BR) and English. The buttons are way too dependent of scripts, so I made a fail safe to allow navigation when JavaScript is disabled;</P>
     <P><strong><span class="emoji" aria-hidden="true">🌟</span> JavaScript</strong> - I`ve added 3 interesting scripts: a view counter and one that shows the last time the website was updated, all making use of the Neocities own API. (I found them on <a href="https://dannarchy.com/tut/tut_002">dannarchy.com</a>). The other one shows a custom thumbnail on my Neocities profile. (This one I found on <a href="https://arandomsite.neocities.org/writing/#custom-neocities-thumbnail">arandomsite.neocities.org</a>);</P>
-    <P><strong><span class="emoji" aria-hidden="true">🌟</span> More fixes</strong> - I fixed the buttons on my navigation bar, now they behave like buttons;</P>
+
     <details>
       <summary>Show more...</summary>
+      <P><strong><span class="emoji" aria-hidden="true">⭐</span> More fixes</strong> - I fixed the buttons on my navigation bar, now they behave like buttons;</P>
       <P><strong><span class="emoji" aria-hidden="true">⭐</span> Fixes</strong> - I prevented emojis from being viewed by accessibility APIs. Emojis are pure "decoration" and they ware causing problems with screen readers;</P>
       <P><strong><span class="emoji" aria-hidden="true">⭐</span> Emojis</strong> - I will test whether emojis make the look less boring, but I'm not sure it will work out because I already see that it broke some screen readers;</P>
       <P><strong><span class="emoji" aria-hidden="true">⭐</span> Rounded corners</strong> - I adjusted the highlight blocks so that they have rounded corners. Looks nice;</P>
@@ -57,6 +59,22 @@
       <P><strong><span class="emoji" aria-hidden="true">⭐</span> Performance and fixes</strong> - Several corrections were made to the Site's HTML/CSS to improve code performance and consistency. Now browsers with reading mode are able to identify the elements correctly and display the read option on virtually every page. I am also testing some methods so that the Home Page does not use the cache as often and always displays updated content.</P>
       <hr>
     </details>
+    <br>
+    <div class="card center">
+      <h2>Latest played song on last.fm</h2>
+      <p>&#127911; <a href="https://www.last.fm/user/jefbecker/library"><span id="song">Song name</span></a></p>
+      <hr style="margin-bottom: -0.8em; margin-top: 1.2em;">
+      <p style="float: right;"><small>Powered by <a href="https://github.com/biancarosa/lastfm-last-played" target="_blank">@biancarosa</a></small></p>
+    </div>
+    <br>
+    <div class="card center">
+      <h2>Latest status.cafe update</h2>
+      <span id="statusCafe-emoji"></span>
+      <span id="statusCafe-status">No recent update</span></a>
+      <hr style="margin-bottom: -0.8em; margin-top: 1.2em;">
+      <p><small>Posted <span id="statusCafe-time"></span>. <a style="float:right" href="https://status.cafe/users/jefbecker">status.cafe</a></small></p>
+    </div>
+    <br>
     <h2 style="text-align: center;"><span class="emoji" aria-hidden="true">📝</span> Next Updates</h2>
     <P><strong><span class="emoji" aria-hidden="true">★</span> Finish the translation</strong> - There are still nine pages left to translate;</P>
     <P><strong><span class="emoji" aria-hidden="true">★</span> Page "Neocities"</strong> - I will make a page specially to Neocities;</P>
@@ -83,7 +101,9 @@
   </footer>
   <script src="/scripts/since.js"></script>
   <script src="/scripts/hitcount_en.js"></script>
-  <script src="/scripts/headless.js"></script>
+  <script src="/scripts/hitcount_pt.js"></script>
+  <script src="/scripts/lastplayed.js"></script>
+  <script src="/scripts/status.js"></script>
 </body>
 
 </html>

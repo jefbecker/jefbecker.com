@@ -197,16 +197,33 @@ footer {
     background-color: #036363;
     color: #ffffff;
     font-weight: bold;
+    text-decoration: none;
   }
 
   a:link {
     color: #26D9D6;
+    text-decoration: underline;
 
     /* Theme: Teal https://encycolorpedia.com/008080 */
   }
 
   a:visited {
-    color: #DBE9E9;
+    color: pink;
+    background-color: #036363;
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: #ffffff;
+    background-color: #036363;
+    text-decoration: underline;
+    text-shadow:10ch;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: #036363;
+    text-decoration: underline;
   }
 
 }
