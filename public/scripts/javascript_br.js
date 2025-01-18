@@ -146,7 +146,7 @@ class LastFmRecentTracks {
         return this.html`
             <div style="display:flex;margin-bottom:1em">
                 <div style="flex:0 0 80px;margin-right:1em;">
-                    <img style="border-radius: 0.25em;" src="${image}">
+                    <img aria-hidden="true" style="border-radius: 0.25em;" src="${image}">
                 </div>
                 <div>
                     <a target="_blank" href="${track.url}">${track.name}</a><br>
