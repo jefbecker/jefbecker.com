@@ -2,6 +2,41 @@
   box-sizing: border-box;
 }
 
+/* DDG search widget,@author Juri Wornowitski,@version 3.0,@link https://www.plainlight.com/ddg */
+
+#widdget input {
+  display: block;
+  height: 30px;
+  padding: 4px;
+  outline: none;
+  border: 1px solid #8d8d8d;
+  border-right: 0;
+  box-sizing: border-box;
+  border-radius: 3px 0 0 3px;
+  width: calc(100% - 41px);
+  font-size: 15px;
+}
+
+#widdget button {
+  float: left;
+  cursor: pointer;
+  width: 43px;
+  height: 30px;
+  color: #fff;
+  background-image: linear-gradient(#cacaca, #929292);
+  border: 0;
+  border-radius: 0 3px 3px 0;
+  padding: 0;
+}
+
+#widdget button:active {
+  background-image: linear-gradient(#909090, #585858);
+}
+
+#widdget button:focus {
+  outline: none;
+}
+
 /*html {
   background: url(/images/buttons/jefbecker/cube_cian.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -80,15 +115,18 @@ ul {
 }
 
 summary {
-  padding: 0.1875em;
-  padding-left: 0.625em;
+  padding: 0.001em;
+  padding-left: 0.325em;
   border-radius: 0.25em;
+  margin: 0.1em;
   cursor: pointer;
 }
 
 details {
-  padding-top: 0.3125em;
-  padding-bottom: 0.3125em;
+  padding: 0.001em;
+  padding-left: 0.625em;
+  border-radius: 0.25em;
+  margin: 0.5em;
 }
 
 button {
@@ -196,6 +234,7 @@ footer {
     border-color: #545454 #000 #000 #545454;
   }
 
+  details,
   summary {
     background-color: #333;
   }
@@ -325,6 +364,11 @@ footer {
 }
 
 @media only screen and (prefers-color-scheme: light) {
+  body {
+    background-color: #fff;
+    color: #222;
+  }
+
   header {
     background-color: #e5e5e5;
 
@@ -353,6 +397,7 @@ footer {
     border-left: 0.3125em solid #e5e5e5;
   }
 
+  details,
   summary {
     background-color: #e5e5e5;
   }
@@ -461,7 +506,7 @@ footer {
   }
 
   a:visited {
-    color: #000000;
+    color: #522e31;
     text-decoration: underline;
   }
 
