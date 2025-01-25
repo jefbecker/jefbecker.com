@@ -480,8 +480,7 @@ footer {
     border: 0.125em solid #222;
     cursor: pointer;
     margin: auto;
-    padding-bottom: 0.1em;
-    padding: 0 0.2em 0.2em;
+    padding: 0.1em 0.15em 0.15em 0.15em;
     text-align: start;
   }
 
