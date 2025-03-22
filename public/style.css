@@ -15,6 +15,21 @@ div {
   margin-bottom: 0.625em;
 }
 
+.nobr {
+  white-space: nowrap;
+  padding: 0.5em;
+  line-height: 2.5;
+}
+
+.card {
+  border-radius: 0.25em;
+  overflow: auto;
+  padding: 1.5em;
+  padding-bottom: 1.5em;
+  padding-top: 0em;
+}
+
+
 /* DDG search widget,@author Juri Wornowitski,@version 3.0,@link https://www.plainlight.com/ddg */
 
 #widdget input {
@@ -110,7 +125,7 @@ code {
   border-radius: 0.25em;
   font-size: medium;
   padding: 0.1875em;
-  margin-top: 0em;
+
 }
 
 blockquote {
@@ -292,11 +307,6 @@ footer {
 
   .card {
     background-color: #333;
-    border-radius: 0.25em;
-    overflow: auto;
-    padding: 1em;
-    padding-bottom: 1em;
-    padding-top: 0em;
   }
 
   .center {
@@ -452,9 +462,6 @@ footer {
 
   .card {
     background-color: #e5e5e5;
-    border-radius: 0.25em;
-    overflow: auto;
-    padding: 2em;
   }
 
   .center {
