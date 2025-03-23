@@ -232,7 +232,7 @@ figure {
 .nav-flex-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5em;
+  gap: 0.2em;
   margin-bottom: 0em;
   align-items: center;
   justify-content: center;
