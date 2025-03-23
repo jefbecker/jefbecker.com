@@ -343,7 +343,6 @@ footer {
   }
 
   .nav-flex-container {
-    display: flex;
     flex-wrap: wrap;
     gap: 0.2em;
     margin-bottom: 0em;
