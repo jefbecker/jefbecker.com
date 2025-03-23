@@ -18,8 +18,6 @@ div {
 
 .nobr {
   white-space: nowrap;
-  padding: 0.5em;
-  line-height: 2.5;
 }
 
 .card {
@@ -29,7 +27,6 @@ div {
   padding-bottom: 0em;
   padding-top: 0em;
 }
-
 
 /* DDG search widget,@author Juri Wornowitski,@version 3.0,@link https://www.plainlight.com/ddg */
 
@@ -125,7 +122,6 @@ code {
   border-radius: 0.25em;
   font-size: medium;
   padding: 0.1875em;
-
 }
 
 blockquote {
@@ -176,6 +172,12 @@ table {
   width: 100%;
 }
 
+a {
+  display: inline-block;
+  pointer-events: auto;
+
+}
+
 td,
 th {
   border: 0.0625em solid #e5e5e5;
@@ -190,6 +192,7 @@ form {
 
 img {
   max-width: 100%;
+  display: block;
 
 }
 
@@ -214,9 +217,33 @@ figure {
 }
 
 .flex-container>div {
-  font-family: system-ui;
   padding: 0.625em;
   text-align: center;
+}
+
+.card-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.nav-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-bottom: 0em;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
 }
 
 footer {
