@@ -335,6 +335,30 @@ footer {
   .card {
     background-color: #333;
   }
+  .card-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  
+  .nav-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2em;
+    margin-bottom: 0em;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+  }
 
   .center {
     display: block;
