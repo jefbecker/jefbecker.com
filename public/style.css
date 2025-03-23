@@ -334,30 +334,6 @@ footer {
     background-color: #333;
   }
 
-  .card-flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-  }
-
-  .nav-flex-container {
-    flex-wrap: wrap;
-    gap: 0.2em;
-    margin-bottom: 0em;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .footer-flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-    align-items: center;
-    justify-content: center;
-  }
-
   .center {
     display: block;
     margin-left: auto;
@@ -511,30 +487,6 @@ footer {
 
   .card {
     background-color: #e5e5e5;
-  }
-
-  .card-flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-  }
-
-  .nav-flex-container {
-    flex-wrap: wrap;
-    gap: 0.2em;
-    margin-bottom: 0em;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .footer-flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-    align-items: center;
-    justify-content: center;
   }
 
   .center {
