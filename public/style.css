@@ -175,7 +175,6 @@ table {
 a {
   display: inline-block;
   pointer-events: auto;
-
 }
 
 td,
@@ -230,7 +229,6 @@ figure {
 }
 
 .nav-flex-container {
-  display: flex;
   flex-wrap: wrap;
   gap: 0.2em;
   margin-bottom: 0em;
@@ -335,6 +333,7 @@ footer {
   .card {
     background-color: #333;
   }
+
   .card-flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -342,7 +341,7 @@ footer {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
   }
-  
+
   .nav-flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -351,7 +350,7 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  
+
   .footer-flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -515,6 +514,30 @@ footer {
     background-color: #e5e5e5;
   }
 
+  .card-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  .nav-flex-container {
+    flex-wrap: wrap;
+    gap: 0.2em;
+    margin-bottom: 0em;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+  }
+
   .center {
     display: block;
     margin-left: auto;
@@ -618,14 +641,7 @@ footer {
 @media only screen and (max-width: 45em) {
 
   /* Styles for small screens (e.g., mobile devices) */
-  .nav-flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.1em;
-    margin-bottom: 0em;
-    align-items: center;
-    justify-content: center;
-  }
+
 }
 
 @media only screen and (min-width: 37.5625em) and (max-width: 1020.25em) {
