@@ -16,6 +16,10 @@ div {
   margin-bottom: 0.625em;
 }
 
+hr {
+  margin-bottom: 1em;
+}
+
 .nobr {
   white-space: nowrap;
 }
@@ -23,8 +27,8 @@ div {
 .card {
   border-radius: 0.25em;
   overflow: auto;
-  padding: 1.5em;
-  padding-bottom: 0em;
+  padding: 1em;
+  padding-bottom: 0.5em;
   padding-top: 0em;
 }
 
@@ -309,6 +313,10 @@ footer {
     background-color: #333;
   }
 
+  .inverted code {
+    background-color: #222;
+  }
+
   button {
     background-color: #e5e5e5;
     border-color: #545454 #000 #000 #545454;
@@ -501,6 +509,10 @@ footer {
 
   code {
     background-color: #e5e5e5;
+  }
+
+  .inverted code {
+    background-color: #fff;
   }
 
   blockquote {
