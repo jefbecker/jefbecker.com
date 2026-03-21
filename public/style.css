@@ -686,13 +686,13 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 0.3125em;
-  flex: 1 1 6em;
-  max-width: 6em;
+  flex: 1 1 5em;
+  max-width: 5em;
 }
 
 .pageinsight-circle {
-  width: 3.50em;
-  height: 3.50em;
+  width: 3.20em;
+  height: 3.20em;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -707,8 +707,8 @@ footer {
 .pageinsight-circle::before {
   content: "";
   position: absolute;
-  width: 2.6em;
-  height: 2.6em;
+  width: 2.4em;
+  height: 2.4em;
   background: #fff;
   border-radius: 50%;
   margin-bottom: 0em;
@@ -721,7 +721,7 @@ footer {
 }
 
 .pageinsight-label {
-  font-size: 1em;
+  font-size: 0.8em;
   text-align: center;
   margin-bottom: 0em;
 }
