@@ -175,17 +175,17 @@ class LastFmRecentTracks {
 
             const day = String(d.getDate()).padStart(2, '0');
 
-            let month = d.toLocaleString('pt-BR', {
+            let month = d.toLocaleString('en', {
                 month: 'short',
                 timeZone: 'America/Sao_Paulo'
             }).replace('.', '');
 
-            const year = d.toLocaleString('pt-BR', {
+            const year = d.toLocaleString('en', {
                 year: 'numeric',
                 timeZone: 'America/Sao_Paulo'
             });
 
-            const time = d.toLocaleTimeString('pt-BR', {
+            const time = d.toLocaleTimeString('en', {
                 timeZone: 'America/Sao_Paulo',
                 hour: '2-digit',
                 minute: '2-digit',
