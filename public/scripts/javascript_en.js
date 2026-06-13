@@ -160,7 +160,7 @@ class LastFmRecentTracks {
     template(track) {
         let image = track.image.find(img => img.size === "large");
         if (!image || !image['#text']) {
-            image = "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png";
+            image = "/images/lastfm.webp";
         } else {
             image = image['#text'];
         }
