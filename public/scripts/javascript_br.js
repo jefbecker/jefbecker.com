@@ -198,12 +198,12 @@ class LastFmRecentTracks {
         return this.html`
             <div style="display:flex;margin-bottom:1em">
                 <div style="flex:0 0 5em;margin-right:1em;">
-                    <img aria-hidden="true" style="border-radius: 0.25em;" alt="Capa do álbum" width="80" height="80" src="${image}">
+                    <img aria-hidden="true" style="border-radius: 0.25em;" alt="Album cover" width="80" height="80" src="${image}">
                 </div>
                 <div>
-                    <a href="${track.url}">${track.name}</a><br>
+                    <a title="Ir para a música atual no Last.fm" href="${track.url}">${track.name}</a><br>
                     <small>${track.artist['#text']}</small><br>
-                    <small><a href="https://www.last.fm/user/jefbecker">${date}</a></small>
+                    <small><a title="Ir para o meu perfil para ver scrobbles no Last.fm" href="https://www.last.fm/user/jefbecker">${date}</a></small>
                 </div>
             </div>`;
     }

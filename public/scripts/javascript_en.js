@@ -201,9 +201,9 @@ class LastFmRecentTracks {
                     <img aria-hidden="true" style="border-radius: 0.25em;" alt="Album cover" width="80" height="80" src="${image}">
                 </div>
                 <div>
-                    <a href="${track.url}">${track.name}</a><br>
+                    <a title="Go to current track on Last.fm" href="${track.url}">${track.name}</a><br>
                     <small>${track.artist['#text']}</small><br>
-                    <small><a href="https://www.last.fm/user/jefbecker">${date}</a></small>
+                    <small><a title="Go to my profile to see scrobbles on Last.fm" href="https://www.last.fm/user/jefbecker">${date}</a></small>
                 </div>
             </div>`;
     }
