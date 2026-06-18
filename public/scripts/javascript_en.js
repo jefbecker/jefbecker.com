@@ -4,8 +4,6 @@ const urlParams = new URLSearchParams(window.location.search); if (navigator.use
 
 // Hitcount_en - Native Neocities Hit-Counter & Last Updated From Dann: https://dannarchy.com/tut/tut_002 //
 
-/*DISABLED SCRIPT
-
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
@@ -23,12 +21,8 @@ xhttp.onreadystatechange = function () {
     }
 };
 
-xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=jefbecker", true);
+xhttp.open("GET", "https://i2b7s8.twilight-credit-f3ea.workers.dev/", true);
 xhttp.send();
-
-*/
-
-/*DISABLED SCRIPT
 
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function () {
@@ -37,14 +31,12 @@ xhttp.onreadystatechange = function () {
         var date_obj = new Date(site_data.info.last_updated);
         var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
         var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-        document.getElementById("lastupdate").innerHTML = days[date_obj.getDay()] + " , " + months[date_obj.getMonth()] + " " + date_obj.getDate() + ", " + date_obj.getFullYear();
+        document.getElementById("lastupdate").innerHTML = days[date_obj.getDay()] + ", " + months[date_obj.getMonth()] + " " + date_obj.getDate() + ", " + date_obj.getFullYear();
 
     }
 };
-xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=jefbecker", true);
+xhttp.open("GET", "https://i2b7s8.twilight-credit-f3ea.workers.dev/", true);
 xhttp.send();
-
-*/
 
 // Lastplayed - Last played song in last.fm by biancarosa: https://github.com/biancarosa/lastfm-last-played //
 

@@ -4,8 +4,6 @@ const urlParams = new URLSearchParams(window.location.search); if (navigator.use
 
 // Hitcount_br - Native Neocities Hit-Counter & Last Updated From Dann: https://dannarchy.com/tut/tut_002 //
 
-/*DISABLED SCRIPT
-
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
@@ -23,12 +21,8 @@ xhttp.onreadystatechange = function () {
     }
 };
 
-xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=jefbecker", true);
+xhttp.open("GET", "https://i2b7s8.twilight-credit-f3ea.workers.dev/", true);
 xhttp.send();
-
-*/
-
-/*DISABLED SCRIPT
 
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function () {
@@ -41,10 +35,8 @@ xhttp.onreadystatechange = function () {
 
     }
 };
-xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=jefbecker", true);
+xhttp.open("GET", "https://i2b7s8.twilight-credit-f3ea.workers.dev/", true);
 xhttp.send();
-
-*/
 
 // Lastplayed - Last played song in last.fm by biancarosa: https://github.com/biancarosa/lastfm-last-played //
 
